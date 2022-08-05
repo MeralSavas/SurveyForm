@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Clarusway Survey Form</h1>
+    
+    <form action="result.html"></form>
+    
+    <p>Thank you for taking the time to help us improve the platform</p>
+
+    <div class="box1">
+        <label for="fname">Name</label>
+        <input type="text" name="first_name" id="fname" placeholder="Enter your name"><br>
+
+        
+        <label for="sname">Surname</label>
+        <input type="text" name="sur_name" id="sname" placeholder="Enter your surname"><br>
+
+        
+        <label for="mail">Email</label>
+        <input type="email" name="E-mail" id="mail" placeholder="user@clarusway.com">
+
+    </div>
+    
+    <p>Which option best describes your current role?</p>
+
+    <div>
+        <select name="current_role" id="role">
+            <option value="none">Select current role</option>
+            <option value="Student">Student</option>
+            <option value="Teacher">Teacher</option>
+            <option value="Fulltimejob">Full Time Job</option>
+            <option value="Parttimejob">Part time Job</option>
+            <option value="Fulltimelearner">Full time learner</option>
+            <option value="Nottasay">Not to say</option>
+        </select>
+    </div>
+
+    <p>Would you recommend Clarusway to a friend?</p>
+
+    <div class="box2">
+        <input type="radio" name="C_friend" id="friend" value="Definitely, Yes">
+        <label for="Friend">Definitely, Yes</label> <br>
+
+        <input type="radio" name="C_friend" id="friend" value="Maybe">
+        <label for="Maybe">Maybe</label> <br>
+
+        <input type="radio" name="C_friend" id="friend" value="Not sure">
+        <label for="nsure">Not sure</label> <br>
+
+        <input type="radio" name="C_friend" id="friend" value="Definetely, No">
+        <label for="no">Definetely, No</label>
+    </div>
+
+    <p>What is your favorite feature of Clarusway?</p>
+
+    <div>
+        <select name="F_featur" id="feature">
+            <option value="none" disabled selected>Select an option</option>
+            <option value="Courses">Courses</option>
+            <option value="Project">Project</option>
+            <option value="Comminity">Comminity</option>
+            <option value="Mentors">Mentors</option>
+        </select>
+
+        <p>What would you like to see improved?(Check all that apply)</p>
+        <form action=""></form>
+
+    </div>
+
+    <div class="box3">
+        <input type="checkbox" name="Check_1" id="front" value="Front-end Project">
+        <label for="front">Front-end Project</label><br>
+        
+        <input type="checkbox" name="Check_2" id="back" value="Front-end Project">
+        <label for="back">Back-end Project</label><br>
+        
+        <input type="checkbox" name="Check_3" id="data" value="Data Science">
+        <label for="data">Data Science</label><br>
+        
+        <input type="checkbox" name="Check_4" id="coursess" value="Additinional Courses">
+        <label for="Coursess">Additinional Courses</label><br>
+
+    </div>
+    <br>
+
+    <p>Any comments or suggestions?</p>
+
+    <div>
+        <textarea name="commnet" id="comment" cols="30" placeholder="Enter your comment here...Thanks for your"></textarea>
+        <input type="submit" value="Submit">
+    </div>
+
+    
+</body>
+</html>

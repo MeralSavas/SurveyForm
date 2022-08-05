@@ -1,0 +1,37 @@
+h1{
+    font-size: 70px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-weight: 100;
+}
+
+p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.box1 input{
+
+    height: 25px;
+}
+
+
+.box1 label{
+   
+    display: flex;
+    margin-bottom: 16px;
+    margin-top: 10px;
+}
+label{
+    font-size: 15px;
+}
+
+.box2 label{
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.box3{
+    display: inline-block;
+    margin-bottom: 16px;
+}
